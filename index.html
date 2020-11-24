@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet">
+    
 </head>
 <body>
     <h1>Shubham's Component library.<br></h1>
@@ -14,21 +16,22 @@
 
     <h1>BIGGEST TEXT</h1>
     <h2>The next big thing</h2>
+    <h2>The next big thing with some <strong>bold letters</strong></h2>
     <p>This is like addind paragraphs with text wrap.</p>
     <small>Pretty small text</small>
     <br><hr>
 
     <h2>@containers</h2>
     <h3>fluid containers</h3>
-    <div>this is left aligned text</div>
+    <div class="fluid-cont">this is left aligned text</div>
     <h3>centre containers</h3>
-    <div>this is text in centre</div>
+    <div class="center-cont">This is text in centre</div>
     <br><hr>
 
     <h2>links</h2>
-    <div>these are links.<br>
-        <a href="/">Primary link</a>
-        <a href="/">Secondary link</a>
+    <div>these are links.<br><br>
+        <a href="/" class="prim-link"> <strong>Primary link</strong> </a>
+        <a href="/" class="sec-link"> <strong>Secondary link</strong> </a>
     </div>
     <br><hr>
 
@@ -36,86 +39,92 @@
     <h3>Unordered lists</h3>
     <h2>Normal list</h2>
     <div>
-        <ul>
+        <ul class="uno-lists">
             <li>milk</li>
             <li>Bread</li>
             <li>egg</li>
             <li>oil</li>
         </ul>
     </div>
-    <h2>Reversed list</h2>
+    <h2>Inline list</h2>
     <h4> We'll make it later using CSS</h4>
     <div>
         <ul>
-            <li>milk</li>
-            <li>Bread</li>
-            <li>egg</li>
-            <li>oil</li>
+            <li class="inline-uno-list">Milk</li>
+            <li class="inline-uno-list">Bread</li>
+            <li class="inline-uno-list">Egg</li>
+            <li class="inline-uno-list">Oil</li >
         </ul>
+        <h4> Made it!</h4>
     </div>
 
     <h2>Ordered lists</h2>
     <h3>Normal list</h3>
     <div>
-        <ol>
+        <ol class="ord-lists">
             <li>milk</li>
             <li>Bread</li>
             <li>egg</li>
             <li>oil</li>
         </ol>
     </div>
+
     <h3>Reversed list</h3>
     <h4> We'll make it later using CSS</h4>
     <div>
-        <ol>
+        <ol reversed>
             <li>milk</li>
             <li>Bread</li>
             <li>egg</li>
             <li>oil</li>
         </ol>
+        <h4> Made it!</h4>    
     </div>
     <br><hr>
+
     <h2>@nav</h2>
-    <div>
+    <div class="navigation">
         <ul>
-            <li>
-                <a href="/">Home</a>
+            <li class="link">
+                <a href="/" class="link-chars">Home</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="link">
+                <a href="/" class="link-chars">Blogs</a>
             </li>
-            <li>
-                <a href="/">Contact</a>
+            <li class="link">
+                <a href="/" class="link-chars">Contact</a>
             </li>
         </ul>
     </div>
     <br><hr>
+
+
     <h2>Header</h2>
-    <div>
-        <header><h1>This is the heading of the website, probably a brand name.<br> HERO <br></h1></header>
-        <img src="images used in website/undraw_code_thinking_1jeh.svg">
+    <div class="header">
+        <header><h1>This is the heading of the website, probably the <span style="color: #93C5FD"> brand name.</span><br> HERO <br></h1></header>
+        <img class="image" src="images used in website/undraw_code_thinking_1jeh.svg">
     </div>
     <br><hr>
 
     <h2>@Sections</h2>
-    <div>
-        <section>
+    <div class="section">
+        <section class="sect1">
             <h4>This is just a section, where i can make general changes. This one is with yellow background</h4>
         </section>
 
-        <section>
-            <h4>This one is with White background</h4>
+        <section class="sect2">
+            <h4>This one is with grey background</h4>
         </section>
     </div>
     <hr><br>
 
     <h2>@Footers</h2>
-    <div>
+    <div class="footer">
         <ul>
-            <li>Instagram</li>
-            <li>Snapchat</li>
-            <li>LinkedIn</li>
-        </ul>
+            <li class="social"> <strong>Instagram </strong></li>
+            <li class="social"> <strong>Snapchat  </strong></li>
+             <li class="social"> <strong>LinkedIn </strong></li>
+        </u l
     </div>
     <hr>
 
